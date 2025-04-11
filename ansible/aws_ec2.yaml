@@ -1,0 +1,13 @@
+plugin: aws_ec2
+aws_profile: default
+regions:
+  - us-east-1
+filters:
+  instance-state-name: running
+  tag:Build: ansible
+hostnames:
+  - ip-address
+  
+# groups:
+#   ansible: "'ansible' in tags.Build"
+#   terraform: "'terraform' in tags.Build"
