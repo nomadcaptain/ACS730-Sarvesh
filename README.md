@@ -2,7 +2,7 @@
 
 This project demonstrates the deployment automation, configuration management, and source control practices used to provision a scalable, two-tier web application infrastructure on AWS.
 
-![Architecture Diagram](./Architecture/Sarvesharch.png)
+![Architecture Diagram](./Architecture/project.png)
 
 ---
 
